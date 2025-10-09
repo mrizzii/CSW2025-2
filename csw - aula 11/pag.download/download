@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Site com Fontes Personalizadas</title>
+
+  <style>
+    /* Importando as fontes locais (você deve baixar e colocar os arquivos na pasta fonts) */
+    @font-face {
+      font-family: 'Top Secret';
+      src: url('fonts/TopSecret.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Gimme Danger';
+      src: url('fonts/GimmeDanger.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'LL Cooper';
+      src: url('fonts/LLCooper.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 40px;
+      background: #fafafa;
+      color: #222;
+    }
+
+    h1 {
+      font-family: 'Top Secret', sans-serif;
+      font-size: 3em;
+      margin-bottom: 0.3em;
+    }
+
+    h2 {
+      font-family: 'Gimme Danger', cursive;
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-family: 'LL Cooper', serif;
+      font-size: 1.2em;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Este é um título H1 com a fonte Top Secret</h1>
+  <h2>Este é um subtítulo H2 com a fonte Gimme Danger</h2>
+  <p>Este parágrafo usa a fonte LL Cooper. Aqui você pode escrever seu texto com estilo personalizado, garantindo uma boa leitura e identidade visual única.</p>
+
+</body>
+</html>
+
